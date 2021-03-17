@@ -13,16 +13,87 @@
           <p>
               <label>
                   <span>First name</span>
-                  <input type="text" name="first name" required />
+                  <input type="text" name="first name" autocomplete="off" required />
               </label>
           </p>
 
           <p>
             <label>
                 <span>Last name</span>
-                <input type="text" name="Last name" required />
+                <input type="text" name="Last name" autocomplete="off" required />
+            </label>
+        </p>
+        <p>
+            <label>
+                <span>Date of birth</span>
+                <input type="date" name="Date of birth" autocomplete="off" required />
+            </label>
+        </p>
+        <p>
+            <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="off" required />
             </label>
         </p> 
+
+    <div>
+        <p>About me</p>
+        <textarea required cols="80" rows="7"></textarea>
+    </div> 
+    <div class="age">
+        <h3>Age</h3>
+        <p>
+        <label>
+            <input type="radio" name="age" />
+            <span>0-18</span>
+        </label>
+        </p> 
+
+        <p>
+            <label>
+                <input type="radio" name="age" checked="checked" />
+                <span>19-29</span>
+            </label>
+        </p> 
+
+        <p>
+        <label>
+            <input type="radio" name="age" />
+            <span>29-50</span>
+        </label>
+        </p> 
+
+        <div class="County">
+            <h3>Country of living</h3>
+            <select name="Country">
+                <option value="ru">Russia</option>
+                <option value="en">USA</option>
+                <option value="ua">Ukraine</option>
+                <option value="fr">France</option>
+            </select>
+            </div>
+            
+            <p>
+                <label>
+                    <input type="checkbox" required name="terms of use" />
+                    <span>I agree of <a href="">Terms of use</a></span>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" required name="user agreement" />
+                    <span>I done user agreement</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="submit" value="Register" />
+                </label>
+            </p>
+    </div> 
+
+         
 
         </form>
     </div>
