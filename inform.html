@@ -7,7 +7,40 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-    <div>
+
+    <!-- Вставка аудио -->
+
+    <div class="audio">
+        <audio src="./musik/1.mp3" controls></audio>
+    </div>
+
+    <div class="audio">
+        <audio src="./musik/2.mp3" controls></audio>
+    </div>
+
+    <div class="audio">
+        <audio src="./musik/3.mp3" controls></audio>
+    </div>
+
+        <!-- Вставка видео -->
+
+        <div class="videos">
+            <div class="video">
+                <video src="./videos/1.mp4" width="400" height="250" controls></video>
+                <p>Video 1</p>
+            </div>
+
+            <div class="video">
+                <video src="./videos/2.mp4" width="400" height="250" controls></video>
+                <p>Video 2</p>
+            </div>
+
+            <div class="video">
+                <video src="./videos/3.mp4" width="400" height="250" controls></video>
+                <p>Video 3</p>
+            </div>
+        </div>
+        <div>
         <form>
             <h3>My Form</h3>
             <p>Your name</p>
@@ -24,6 +57,7 @@
             </p>
         <div>
             <!-- выбор по тексту -->
+
         <label>
             <p>
                 <input type="radio" name="age" />
@@ -42,7 +76,10 @@
         </div>
 
         
-            <p><input type="file" /><span>file</span></p>
+            <p>
+                <input type="file" />
+                <span>file</span></p>
+
             <!-- Кнопки -->
             <p>
                 <input type="button" value="Click" disabled="disabled" />
@@ -82,7 +119,10 @@
                 <textarea></textarea>
             </div>
 
-            <p><input type="submit" /><span>submit</span></p>
+            <p>
+                <input type="submit" />
+                <span>submit</span>
+            </p>
             
 
         </form>
