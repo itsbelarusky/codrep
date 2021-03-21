@@ -47,3 +47,14 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+s {
+    color: black;
+}
+u {
+    color: black;
+}
+.under {
+    text-decoration: underline;
+}
+
