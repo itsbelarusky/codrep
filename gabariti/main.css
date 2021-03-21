@@ -1,0 +1,19 @@
+.item-1 {
+    border: 2px solid green;
+    height: 50%;
+    width: 50%;
+    max-width: 700px;
+    max-height: 500px;
+    overflow: auto;
+    padding: 30px;
+    margin: 0 auto;
+}
+.item-2 {
+    border: 1px solid black;
+    width: 70%;
+    height: 120px;
+    border-bottom: 5px solid red;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
