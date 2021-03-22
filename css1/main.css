@@ -1,0 +1,22 @@
+div{
+
+}
+
+.bigred{
+    font-size: 20px;
+    color: red;
+}
+/* все спаны с классом bigred станут зелеными */
+span.bigred{
+    font-size: 30px;
+    color: green;
+}
+/* все спаны внутри класса bigred станут синими */
+.bigred span{
+    color: blue;
+}
+/* вложенность все p в div с классом block станут фиолетовыми */
+.block>p{
+    color: blueviolet;
+
+}
