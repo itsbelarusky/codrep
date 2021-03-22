@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 .item-2 {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     width: 70%;
     height: 120px;
     border-bottom: 5px solid red;
