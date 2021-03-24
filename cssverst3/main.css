@@ -71,59 +71,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: inherit;
 	font-weight: 400;
 }
+/* задание */
 
-.arial {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+.example-block{
+    border: 10px dashed #000;
+
+    font-size: 50px;
+    margin: 0 0 30px 0;
 }
-
-.fontsize30 {
-	font-size: 30px;
+.example-string{
+    font-size: 50px;
 }
-
-.italic {
-	font-style: italic;
-}
-
-.font700 {
-	font-weight: 700;
-}
-
-.colored {
-	color: #f00f00;
-}
-
-.textright {
-	text-align: right;
-}
-
-.decoration {
-	text-decoration: underline;
-}
-
-.shadow {
-	text-shadow: 1px 1px 1px #000000;
-}
-
-.uppercase {
-	text-transform: uppercase;
-}
-
-.ident {
-	text-indent: 50px;
-}
-
-.lspace {
-	letter-spacing: 5px;
-}
-
-.wspace {
-	word-spacing: 5px;
-}
-
-.whitespace {
-	white-space: nowrap;
-}
-
-.lineheight {
-	line-height: 20px;
+.example-image{
+    border: 10px dashed #000;
 }
