@@ -11,12 +11,10 @@
     
 }
 
-.white article .contents{
-    width: 33%;
+.white article .contents {
+    width: 30%;
     box-sizing: border-box;
     padding: 20px;
-    background-color: aliceblue;
-    color: #4c4747;
     
 
 }
