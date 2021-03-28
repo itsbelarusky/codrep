@@ -1,24 +1,71 @@
 .white {
-    background-color: #fffaf0;
+    background: none;
     width: 100%;
-    padding: 50px 20%;
+    padding: 20px 20%;
     box-sizing: border-box;
 }
 
 .white article {
     background-image: url(../img/blonde.jpg);
     background-size: cover;
+    margin-left: -20px;
+    box-sizing: border-box;
     
 }
 
 .white article .contents {
-    width: 30%;
+    width: 33%;
     box-sizing: border-box;
     padding: 20px;
+    margin-left: 850px;
+    border-bottom: 1px solid #f8d1cd;
     
+}
+
+.white .contents .text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.white .text {
+.white .contents .text h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #FFA07A;
+}
+.white .contents .text p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #80858ade;
+}
 
+.white .contents .text .link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.quote {
+    padding: 1px 20%;
+}
+
+.quote .content h2 {
+    font-size:38px;
+    color: #FFA07A;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.quote .content p q {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #80858ade;
+    text-align: center;
+    margin-left: 50px;
+    
+    
+    
+
+    
+    
 }
