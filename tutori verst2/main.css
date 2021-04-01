@@ -44,7 +44,8 @@
 }
 
 .quote {
-    padding: 1px 20%;
+    padding: 25px 20%;
+    
 }
 
 .quote .content h2 {
@@ -56,12 +57,16 @@
     margin-left: 50px;
 }
 
-.quote .content p q {
+.quote .content p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     color: #80858ade;
     text-align: center;
-    margin-left: 50px; 
+    padding: 25px 15%;
+    display: inline-block;
+    margin-top: -10px;
+    
+    box-sizing: border-box;
 }
 
 .white .contents .link button {
