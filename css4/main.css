@@ -75,12 +75,19 @@ h1, h2, h3, h4, h5, h6 {
 /* проект */
 
 body {
-    padding: 30px;
+    padding: 150px 30px 30px 30px;
 }
 .block {
-    background: url(./img/test-6128573_640.jpg);
+    background: url(./img/test-6128573_640.jpg) 50%/cover no-repeat;
     height: 300px;
     border-radius: 15px;
     box-shadow: 0 0 10px #000;    
 
+}
+
+.block2 {
+	height: 100px;
+	border-radius: 15px;
+	box-shadow:  0 0 10px rgb(11, 13, 173);
+	margin-top: 10px;
 }
