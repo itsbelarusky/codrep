@@ -75,13 +75,18 @@ h1, h2, h3, h4, h5, h6 {
 /* проект */
 
 body {
-	background: url(./img/Ellipse_1_copy.png) center no-repeat;
+	
 	padding: 150px 30px 30px 30px;
+	background: url(./img/light-man_copy.png) 50% 356px no-repeat,
+	url(./img/Layer_1.png) 50% 310px no-repeat,
+	url(./img/Ellipse_1_copy.png) 50% no-repeat;
+	background-color: #e8e8e8;
+	
 	
 
 }
 
-.header span {
+.header p{
 	color: #273d46;
 	font-family: "Arial MT";
 	font-weight: 400;
@@ -89,9 +94,11 @@ body {
 	text-transform: uppercase;
 	line-height: 40px;
 	text-align: center;
+	letter-spacing: 2.8px;
 	
-
 }
+
+
 
 .text1 {
 	font-family: "Times New Roman PSMT";
@@ -100,6 +107,92 @@ body {
 	line-height: 50px;
 	width: 40%;
 	text-align: center;
-	margin-left: 33%;
+	margin-left: 30%;
+	
 	
 }
+
+.body-text .abs1 {
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	line-height: 40px;
+	text-align: left;
+	width: 40%;
+	margin: 650px 0 0 550px;
+
+}
+
+.body-text .abs2 {
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	line-height: 40px;
+	text-align: left;
+	width: 40%;
+	margin: 40px 0 0 550px;
+
+}
+
+.list {
+	
+	text-align: center;
+}
+
+.list .shadow {
+	font-size: 25px;
+	margin: 0 0 15;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	line-height: 36px;
+	color: #273d46;
+}
+
+.list .italic {
+	font-size: 25px;
+	margin: 0 0 0 -100px;
+	color: #80b7b3;
+	font-style: italic;
+	font-family: "Arial MT";
+	line-height: 36px;
+}
+
+.list .bold {
+	font-size: 25px;
+	margin: 0 0 0 -65px;
+	color: #273d46;
+	font-weight: bold;
+	line-height: 36px;
+	
+}
+
+.list .line {
+	font-size: 25px;
+	margin: 0 0 0 -45px;
+	color: #273d46;
+	font-family: "Arial MT";
+	line-height: 36px;
+	text-align: center;
+	text-decoration: line-through;
+	background: url(./img/check_icon1.png) no-repeat;
+}
+.list li {
+	background: url(./img/check_icon1.png) center no-repeat;
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
