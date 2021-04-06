@@ -1,0 +1,213 @@
+/*Обнуление*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* домашка */
+
+body {
+    padding: 50px;
+    background-color: #e8e8e8;
+    font-family: "Arial MT";
+}
+
+.block p {
+    
+    color: #000000;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.list {
+    margin: 0 0 60px 715px;
+    text-align: left;
+}
+
+.list li {
+    margin: 0 0 15px 0;
+    background: url(./img/icons/li.svg) left no-repeat;
+    padding: 0 0 0 30px;
+    font-size: 20px;    
+}
+
+.list li:nth-child(1) {
+    text-decoration: line-through;
+}
+
+.list li:nth-child(2) {
+    font-weight: bold;
+}
+
+.list li:nth-child(3) {
+    font-style: italic;
+}
+
+.list li:nth-child(4) {
+    text-transform: uppercase;
+}
+
+.list2 {
+    margin: 0 0 60px 715px;
+    text-align: left;
+}
+
+.list2 li {
+    margin: 0 0 15px 0;
+    background: url(./img/icons/li.svg) left no-repeat;
+    padding: 0 0 0 30px;
+    font-size: 20px;
+}
+
+.list2 li:nth-child(2):hover {
+    color: red;
+    
+}
+
+.list2 li:nth-child(2):hover {
+    background: url(../css5/img/icons/check_icon.png) left no-repeat;
+}
+.textbutton {
+    
+    width: 199px;
+    background: url(./img/icons/Shape_2.png) 150px center no-repeat;
+    
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    border-radius: 30px;
+    background-color: rgb(140, 233, 233);
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 50px 100px 0 30%;
+    
+   
+}
+
+.textbutton2 {
+    
+    width: 199px;
+    background: url(./img/icons/Shape_2.png) 150px center no-repeat;
+    
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    border-radius: 30px;
+    background-color: #3a5856;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 50px 100px 0 0;
+}
+
+.textbutton2:hover {
+    box-shadow: 0 6px 40px rgba(10, 15, 15, 0.54);
+}
+
+.textbutton3 {
+    width: 199px;
+    background: url(./img/icons/Shape_2.png) 150px center no-repeat;
+    
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    border-radius: 30px;
+    background-color: #818181;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.textbutton3:active {
+    background-color: #772424;
+}
+.textinput {
+    
+    border: 1px solid #b0b0b0;
+    width: 292px;
+    height: 50px;
+    margin: 150px 0 0 30%;
+    
+}
+.focus {
+    width: 292px;
+    margin: 0 0 0 150px;
+    height: 50px;
+    border: 1px solid #7fbed5;
+    
+}
+
+.focus:focus {
+    box-shadow: 0 0 20px rgba(13, 37, 46, 0.93);
+}
+
